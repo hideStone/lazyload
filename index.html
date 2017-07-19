@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lazyload</title>
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+        }
+        .main .box{
+            float: left;
+            padding:2px;
+            margin:15px;
+            box-shadow: 0 0 5px 3px #ccc;
+            border-radius: 4px;
+        }
+        img{
+            width:220px;
+            height: 365px;
+            opacity: 0;
+            /* transition: all 3s; */
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <img src="" data-src="./images/0.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/1.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/2.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/3.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/4.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/5.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/6.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/7.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/8.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/9.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/10.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/11.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/12.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/13.jpg">
+        </div>
+        <div class="box">
+            <img src="" data-src="./images/14.jpg">
+        </div>
+    </div>
+    <script src="./lazyload.js"></script>
+    <script>
+        new lazyload('.main')
+</script>
+</body>
+</html>
