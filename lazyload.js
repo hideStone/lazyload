@@ -2,7 +2,7 @@
 (function(w){
     var Lazyload = function(parent){
         this.oParent = document.querySelector(parent)
-        this.img = this.oParent.querySelectorAll('img');
+        this.img = this.oParent.querySelectorAll('img')
         if(!this.oParent){
             this.oParent = 'body'
         }else{
